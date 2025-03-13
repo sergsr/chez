@@ -2,8 +2,6 @@
 # vim: set filetype=gitconfig:
 #
 [user]
-	email = sradutnuy@pinterest.com
-	name = sradutnuy
 [pull]
 	ff = only
 
