@@ -16,7 +16,7 @@ set scrolloff=5
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " AESTHETICS
 
-set number relativenumber 
+set number relativenumber
 nnoremap <leader>n :set number! relativenumber!<CR>
 
 set termguicolors
@@ -75,3 +75,13 @@ lua require('Comment').setup()
 " `gc[count]{motion}` - (Op-pending) Toggles the region using linewise comment
 " `gb[count]{motion}` - (Op-pending) Toggles the region using blockwise comment
 "
+"
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Ctrl-p / file finding customization
+" if executable('fd')
+"   let g:ctrlp_user_command = 'fd --type f --color=never "" %s'
+"   let g:ctrlp_use_caching = 0
+" endif
+"
+" let g:ctrlp_lazy_update = 1
+" let g:ctrlp_regexp = 1
